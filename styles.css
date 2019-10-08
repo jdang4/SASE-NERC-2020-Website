@@ -1,0 +1,57 @@
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse {
+  background-color: #78909c !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #78909c !important;
+  }
+}
+
+h1 {
+  letter-spacing: 8px;
+  margin: -40px;
+  font-size: 600%;
+  font-family: 'Futura-bold';
+  font-weight: 700;
+  word-wrap: break-word;
+}
+
+h2 {
+  letter-spacing: 3px;
+  font-size: 150%;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-weight: 700;
+}
+
+h3 {
+  letter-spacing: 3px;
+  font-size: 100%;
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-weight: 700;
+}
+
+.hr-light {
+  border-top: 3px solid #fff;
+  width: 80px;
+}
