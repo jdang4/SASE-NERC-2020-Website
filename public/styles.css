@@ -31,8 +31,8 @@ header,
 h1 {
   letter-spacing: 8px;
   margin: -40px;
-  font-size: 600%;
-  font-family: 'Futura-bold';
+  font-size: 620%;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
   word-wrap: break-word;
 }
@@ -40,15 +40,17 @@ h1 {
 h2 {
   letter-spacing: 3px;
   font-size: 150%;
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
+  word-wrap: break-word;
 }
 
 h3 {
   letter-spacing: 3px;
   font-size: 100%;
-  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
+  /*word-wrap: break-word;*/
 }
 
 .hr-light {

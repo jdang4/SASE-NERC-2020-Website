@@ -27,22 +27,48 @@
 <span id="warning-container"><i data-reactroot=""></i></span>
 <body aria-busy="true">
     <header>
+        <!--Navigation Bar-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link waves-effect waves-light" style="font-weight: 600" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
         <div class="view" data-jarallax="{&quot;speed&quot;: 0.2}" style="background: linear-gradient(rgba(0, 128, 255, 0.35), rgba(0, 128, 255, 0.35)), url('/home/jonathan/Pictures/SASE_NERC/boston.jpg'); 
-        background-repeat: no-repeat; background-size: cover; background-position: relative; padding: 1em">
+        background-repeat: no-repeat; background-size: cover; background-position: center; padding: 1em; height: 100vh;">
             <!-- Mask & flexbox options-->
-            <div class="mask rgba-black-light align-items-center">
+            <div class="mask rgba-black-light align-items-center" style="padding-top: 5%">
                 <!-- Content -->
-                <div class="container">
+                <div class="container" style="vertical-align: center; align-self: center">
                     <!-- Grid Row -->
                     <div class="row">
                         <!-- Grid Column-->
                         <div class="col-md-12 mb-4 white-text text-center">
-                                <h1 class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown" data-wow-delay="0.3s" style="padding-top: 5%"><strong>SASE</strong></h1>
-                                <h1 class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown" data-wow-delay="0.35s"><strong>NERC</strong></h1>
-                                <h1 class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown" data-wow-delay="0.35s"><strong>2020</strong></h1>
-                                <h2 class="text-uppercase mb-4 white-text wow fadeInDown" data-wow-delay="0.4s"><strong>FEBURARY 22, 2020</strong></h2>
-                                <h3 class="text-uppercase mb-4 white-text wow fadeInDown" data-wow-delay="0.4s"><strong>MARRIOTT BOSTON QUINCY, MA</strong></h3>
-                                <h1 class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown" data-wow-delay="0.35s" style="padding-block: 15%; margin: 100px; font-size: 400%;"><strong>COMING SOON!</strong></h1>
+                                <h1 class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown" data-wow-delay="0.3s" 
+                                style="padding-top: 15%; padding-left: 15px; letter-spacing: 15px;">
+                                    <strong>SASE</strong></h1>
+                                <h1 class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown" data-wow-delay="0.35s" 
+                                style="letter-spacing: 12px; padding-left: 10px; margin: -70px">
+                                    <strong>NERC</strong></h1>
+                                <h1 class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 wow fadeInDown" data-wow-delay="0.35s" 
+                                style="align-content: center; padding-left: 35px; letter-spacing: 30px; margin: -70px">
+                                    2020</h1>
+                                <h2 class="text-uppercase mb-4 white-text wow fadeInDown" data-wow-delay="0.4s" style="font-size: 170%; letter-spacing: 2.6px;">
+                                    <strong>FEBURARY 22, 2020</strong></h2>
+                                <h3 class="text-uppercase mb-4 white-text wow fadeInDown" data-wow-delay="0.4s" style="font-size: 120%; letter-spacing: 0px;">
+                                    <strong>MARRIOTT BOSTON QUINCY, MA</strong></h3>
+                                <h3 class="text-uppercase mb-4 white-text wow fadeInDown" data-wow-delay="0.35s" style="margin: 100px; font-size: 190%; letter-spacing: 0px;">
+                                    <strong>SITE COMING SOON!</strong></h3>
+                                <h5 class="text-uppercase mb-4 white-text wow fadeInDown" data-wow-delay="0.35s" style="font-size: 75%; letter-spacing: 0px;">
+                                    <strong>Hosted by SASE Worcester Polytechnic Institute</strong></h5>
                         </div>
                         <!-- Grid Column-->
                     </div>
