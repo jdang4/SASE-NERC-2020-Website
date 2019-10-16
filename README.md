@@ -3,8 +3,8 @@
 [https://sasenerc2020](https://sasenerc2020)
 
 ## Developers
-[Jonathan Dang] (https://github.com/jdang4)
-[Joseph Yuen] (https://github.com/jhyuen)
+[Jonathan Dang](https://github.com/jdang4)
+[Joseph Yuen](https://github.com/jhyuen)
 
 ## Description
 The goal of this website is so to provide information and registration for the annual SASE NERC.
