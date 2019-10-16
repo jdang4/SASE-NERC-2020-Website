@@ -4,6 +4,7 @@
 
 ## Developers
 [Jonathan Dang](https://github.com/jdang4)
+
 [Joseph Yuen](https://github.com/jhyuen)
 
 ## Description
