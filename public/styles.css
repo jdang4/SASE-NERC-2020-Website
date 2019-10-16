@@ -74,16 +74,17 @@ header,
   font-weight: 700;
 }
 
-.siteStyling {
-  margin: 80px; 
-  font-size: 190%; 
-  letter-spacing: 0px;
-}
-
 .locationStyling {
   font-size: 120%; 
   letter-spacing: 0px; 
-  margin: -10px
+  margin-top: -10px;
+}
+
+.siteStyling {
+  margin-top: 70px; 
+  margin-bottom: 50px;
+  font-size: 190%; 
+  letter-spacing: 0px;
 }
 
 .h5-text {
@@ -93,7 +94,7 @@ header,
 .hostStyling {
   font-size: 75%; 
   letter-spacing: 1px;
-  margin: -70px;
+  margin-top: -50px;
 }
 
 .hr-light {
