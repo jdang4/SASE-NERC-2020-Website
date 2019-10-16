@@ -3,6 +3,9 @@ body,
 header,
 .view {
   height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-position: center;
 }
 
 @media (max-width: 740px) {
@@ -10,7 +13,7 @@ header,
   body,
   header,
   .view {
-    height: 100vh;
+    height: 100%;
   }
 }
 
@@ -28,29 +31,69 @@ header,
   }
 }
 
-h1 {
-  letter-spacing: 8px;
-  margin: -40px;
+.h1-text {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
   font-size: 620%;
+  margin: -20px;
+  word-wrap: break-word;
+}
+
+.saseStyling {
+  margin-top: 12px; 
+  padding-left: 15px; 
+  letter-spacing: 15px;
+}
+
+.nercStyling {
+  letter-spacing: 12px; 
+  padding-left: 10px; 
+}
+
+.yearStyling {
+  align-content: center; 
+  padding-left: 35px; 
+  letter-spacing: 30px;
+  margin-bottom: 10px;
+}
+
+.h2-text {
+  font-size: 170%; 
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
   word-wrap: break-word;
 }
 
-h2 {
-  letter-spacing: 3px;
-  font-size: 150%;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-weight: 700;
-  word-wrap: break-word;
+.dateStyling {
+  letter-spacing: 2.6px; 
+  margin: 15px;
 }
 
-h3 {
-  letter-spacing: 3px;
-  font-size: 100%;
+.h3-text {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
-  /*word-wrap: break-word;*/
+}
+
+.siteStyling {
+  margin: 80px; 
+  font-size: 190%; 
+  letter-spacing: 0px;
+}
+
+.locationStyling {
+  font-size: 120%; 
+  letter-spacing: 0px; 
+  margin: -10px
+}
+
+.h5-text {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.hostStyling {
+  font-size: 75%; 
+  letter-spacing: 1px;
+  margin: -70px;
 }
 
 .hr-light {
