@@ -31,12 +31,18 @@ header,
   }
 }
 
+.full-width {
+  width: 100%;
+  position: absolute;
+  left: 0;
+}
+
 .h1-text {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
   font-size: 620%;
   margin: -20px;
-  word-wrap: break-word;
+  /*word-wrap: break-word;*/
 }
 
 .saseStyling {
@@ -61,7 +67,7 @@ header,
   font-size: 170%; 
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
-  word-wrap: break-word;
+  /*word-wrap: break-word;*/
 }
 
 .dateStyling {
