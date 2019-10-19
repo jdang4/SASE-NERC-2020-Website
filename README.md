@@ -1,6 +1,6 @@
 ## Society of Asian Scientists and Engineers (SASE) Northeast Regional Conference (NERC) 2020 Official Site
 
-[https://sasenerc2020](https://sasenerc2020)
+[https://sasenerc2020](https://sasenerc2020.com)
 
 ## Developers
 - [Jonathan Dang](https://github.com/jdang4)
