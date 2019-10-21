@@ -120,6 +120,7 @@ header,
   grid-gap: 0px;
   row-gap: 290px;
   column-gap: 10px;
+  justify-content: center;
 }
 
 .grid-item {
