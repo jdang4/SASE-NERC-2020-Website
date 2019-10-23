@@ -31,6 +31,14 @@ header,
   }
 }
 
+li {
+  color: white;
+}
+
+.aboutP {
+  font-size: 24px;
+}
+
 .full-width {
   width: 100%;
   position: absolute;
@@ -41,7 +49,14 @@ header,
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
   font-size: 620%;
-  margin: -20px;
+  color: white;
+  /*word-wrap: break-word;*/
+}
+
+.h1-textDate {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  color: white;
   /*word-wrap: break-word;*/
 }
 
@@ -64,15 +79,17 @@ header,
 }
 
 .h2-text {
-  font-size: 170%; 
+  font-size: 200%; 
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
+  
   /*word-wrap: break-word;*/
 }
 
 .dateStyling {
-  letter-spacing: 2.6px; 
-  margin: 15px;
+  font-size: 5vw;
+  margin-top: 10px;
+  text-align: center;
 }
 
 .h3-text {
@@ -110,15 +127,16 @@ header,
 
 .container-fluid-BG-styling {
   background-position: center; 
-  background-size:auto;
+  background-size:cover;
+  background-repeat: no-repeat;
 }
 
 .grid-container {
   display: grid;
-  grid-auto-rows: 100px;
+  grid-auto-rows: 150px;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
   grid-gap: 0px;
-  row-gap: 290px;
+  row-gap: 300px;
   column-gap: 10px;
   justify-content: center;
 }
@@ -127,7 +145,7 @@ header,
   font-size: 30px;
   text-align: center;
   border-radius: 50px;
-  width: 250px;
+  width: 275px;
 }
 
 .ul-team {
@@ -137,8 +155,8 @@ header,
 }
 .avatar-img {
   border-radius: 50%; 
-  width: 250px; 
-  height: 250px;
+  width: 275px; 
+  height: 275px;
 }
 
 .col-1-3 {
