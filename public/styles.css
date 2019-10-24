@@ -29,6 +29,10 @@ header,
   .navbar:not(.top-nav-collapse) {
     background: #78909c !important;
   }
+  .nav-font-styling {
+    font-weight: 300 !important;
+    font-size: 25px !important;
+  }
 }
 
 li {
@@ -45,45 +49,67 @@ li {
   left: 0;
 }
 
+.nav-li-pad{
+  padding-right: 75px;
+}
+
+.nav-font-styling {
+  font-weight: 600;
+  font-size: 200%;
+}
+
+.navbar-nav .navbar-center {
+  position: relative;
+  left: 50%;
+  transform: translatex(-50%);
+}
+
+h1, h2, p {
+  color:white;
+}
+
 .h1-text {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
   font-size: 620%;
-  color: white;
   /*word-wrap: break-word;*/
+}
+
+.h1-section {
+  margin-top: 100px;
+  margin-left: 20px;
+}
+
+.last-row {
+  padding-bottom: 100px;
 }
 
 .h1-textDate {
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
-  color: white;
   /*word-wrap: break-word;*/
-}
-
-.saseStyling {
-  margin-top: 12px; 
-  padding-left: 15px; 
-  letter-spacing: 15px;
-}
-
-.nercStyling {
-  letter-spacing: 12px; 
-  padding-left: 15px; 
-}
-
-.yearStyling {
-  align-content: center; 
-  padding-left: 25px; 
-  letter-spacing: 25px;
-  margin-bottom: 10px;
 }
 
 .h2-text {
   font-size: 200%; 
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-weight: 700;
-  
+  color: white;
   /*word-wrap: break-word;*/
+}
+
+.h2-nerc-board {
+  margin-left: 20px; 
+  margin-bottom: 100px; 
+  letter-spacing: 0px; 
+  font-size: 2.8vw;
+}
+
+.h2-schedule-date {
+  margin: 50px;
+  margin-left: 20px;
+  margin-top: 0px;
+  font-size: 350%;
 }
 
 .dateStyling {
