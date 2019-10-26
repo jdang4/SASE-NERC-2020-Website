@@ -6,7 +6,6 @@ header,
   background-repeat: no-repeat;
   background-size: cover; 
   background-position: center;
-  overflow-x: hidden;
 }
 
 @media (max-width: 740px) {
@@ -145,7 +144,7 @@ p {
 
 /* Container & Grid CSS */
 .container-width {
-  min-width: 70%;
+  min-width: 60%;
 }
 
 .container-fluid-BG-styling {
