@@ -43,7 +43,7 @@ header,
   }
   .nav-font-styling {
     font-weight: 300 !important;
-    font-size: 25px !important;
+    font-size: 18px !important;
   }
 }
 
@@ -53,13 +53,11 @@ header,
 
 .nav-font-styling {
   font-weight: 600;
-  font-size: 200%;
+  font-size: 100%;
 }
 
 .navbar-nav .navbar-center {
   position: relative;
-  left: 50%;
-  transform: translatex(-50%);
 }
 /* Ending Nav Bar CSS */
 
@@ -138,7 +136,7 @@ p {
 }
 
 .aboutP {
-  font-size: 24px;
+  font-size: 18px;
 }
 /* Ending Paragraph CSS */
 
@@ -164,7 +162,7 @@ p {
 }
 
 .grid-item {
-  font-size: 30px;
+  font-size: 24px;
   text-align: center;
   border-radius: 50px;
   width: 275px;
@@ -180,8 +178,8 @@ p {
 
 .avatar-img {
   border-radius: 50%; 
-  width: 275px; 
-  height: 275px;
+  width: 250px; 
+  height: 250px;
 }
 /* Ending Team Section CSS */
 
@@ -232,3 +230,8 @@ p {
   color: white;
 }
 /* Ending Social Icon CSS */
+
+.memberName {
+  margin-top: 20px;
+  font-weight: bold;
+}
