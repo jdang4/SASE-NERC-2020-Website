@@ -1,9 +1,17 @@
+<!--
+    TODO
+    - fix the left margins for some header
+    - adjust the schedule date so that it is on one line
+    - adjust the schedule columns so that get indents on mobile version
+    - maybe shorten Sponsors header size
+-->
+
 <!DOCTYPE html>
 <html>
 <head>
     <!-- Required meta tags always come first -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, user-scalable=yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=yes, user-scalable=yes">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>SASE NERC 2020</title>
     <!-- Bootstrap core CSS -->
@@ -38,9 +46,12 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+                    <a class="navbar-brand nav-li-pad" href="#Home">
+                        <img src="Backgrounds/SaseLogo.jpg" alt="logo" style="width:60px; height: 60px;">
+                    </a>
                     <ul class="navbar-nav navbar-center">
                         <li class="active nav-item nav-font-styling nav-li-pad">
-                            <a class="nav-link waves-effect waves-light" href="#">Home<span class="sr-only">(current)</span></a>
+                            <a class="nav-link waves-effect waves-light" href="#Home">Home<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item nav-font-styling nav-li-pad">
                             <a class="nav-link waves-effect waves-light" href="#About">About</a>
@@ -61,7 +72,7 @@
                 </div>
             </div>
         </nav>
-        <div class="view container-fluid" data-jarallax="{&quot;speed&quot;: 0.2}" style="background-image: url('Backgrounds/HomeBg.jpg');">
+        <div class="view container-fluid" data-jarallax="{&quot;speed&quot;: 0.2}" style="background-image: url('Backgrounds/HomeBg.jpg');" id="Home">
             <!-- Mask & flexbox options-->
             <div class="container w3-animate-opacity" style="padding-top: 150px;" id="SplashLogo">
                 <!-- Content -->
@@ -80,27 +91,13 @@
             <div class="container-fluid container-fluid-BG-styling" style="background-image: url('Backgrounds/AboutBg.jpg');" id="About">
                 <div class="row">
                     <div class = "container container-width">
-                        <h1 class="h1-text h1-section" style="margin-left: 0px;">ABOUT</h1>
-                        <h2 class="h2-text" style="margin-bottom: 20px;">SASE NORTHEAST REGIONAL CONFERENCE</h2>
-                        <p class = "aboutP">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices, mi ac sollicitudin porttitor, 
-                            dui leo tempus nisl, eget fermentum ipsum lectus at mauris. Ut vitae tincidunt enim, ac lacinia tellus. Aenean in volutpat enim, 
-                            vel varius mi. Nam malesuada, lorem id fermentum cursus, ante ante ultrices tellus, ut aliquet eros orci eu nulla. Nunc ex ante, 
-                            tristique eu rutrum et, sollicitudin et ex. Etiam at ipsum pulvinar risus tristique faucibus quis eget lectus. Nulla facilisi. 
-                            Maecenas rhoncus vestibulum augue ut mattis.Ut accumsan, lorem eget suscipit porttitor, nibh erat lacinia metus, non viverra ante 
-                            nibh id velit. Fusce non tempus tellus, vitae sagittis enim. Sed sed ipsum pretium, fermentum neque sed, lacinia urna.                                     Nulla non aliquet sem. Duis viverra augue a risus ornare placerat. Quisque varius ex lorem, eu blandit neque aliquet in. 
-                            Donec luctus luctus mauris sit amet laoreet. Aliquam malesuada porttitor lobortis. Ut convallis dignissim urna, id placerat 
-                            urna mattis sed. Integer malesuada nulla lorem. Praesent scelerisque sapien sit amet leo faucibus interdum. Quisque 
-                            libero nisl, dictum et ultrices eget, convallis sed lacus. Curabitur imperdiet mi vitae iaculis mattis.Nulla justo sem, 
-                            facilisis in porta eu, finibus nec nibh. Donec convallis tristique congue. Pellentesque venenatis dui sed odio tempus 
-                            sollicitudin vel sed est. Curabitur molestie gravida massa quis euismod. Integer vel tristique dolor. Vivamus a est vitae 
-                            lacus vehicula dictum id sed lacus. Curabitur aliquet massa sem, ut pharetra orci gravida quis. Morbi ac suscipit augue, 
-                            quis porta ipsum. Duis faucibus eleifend lectus. Sed finibus tristique convallis. Aenean elit erat, aliquam sed pellentesque 
-                            non, commodo id mi. Integer eu eros et mauris egestas blandit. Nunc a euismod lorem. Maecenas tempor libero quis lacus 
-                            tincidunt, sed tempor quam ullamcorper. Cras molestie tempus neque. Sed ullamcorper lorem in posuere porta. Lorem ipsum 
-                            dolor sit amet, consectetur adipiscing elit. Quisque varius tellus ut eros semper, sit amet imperdiet eros pretium. Ut 
-                            non consequat mi. Maecenas congue eleifend lacus, eget tempus dui dignissim ac. Sed porttitor sagittis justo, a lacinia 
-                            magna sodales cursus. Nullam iaculis mollis diam at aliquet. Praesent justo libero, lacinia nec mi et, accumsan egestas ligula. 
-                            Morbi eu fringilla purus.  
+                        <h1 class="h1-text h1-section">ABOUT</h1>
+                        <h2 class="h2-text" style="margin-left: 10px; margin-bottom: 20px;">SASE NORTHEAST REGIONAL CONFERENCE</h2>
+                        <p class = "aboutP">The annual Society of Asian Scientists and Engineers (SASE) Northeast Regional Conference (NERC) on 
+                            February 22, 2020 at the Marriott Boston Quincy Hotel is the largest SASE conference in the Northeast Region bringing
+                            together more than 30 collegiate chapters. At NERC, you can expect to hear from inspiring speakers, attend helpful workshops,
+                            connect with dozens of prestigious companies, and meet up with your one and only SASE fam! This year's theme "Expanding Horizons"
+                            challenges you to expand your horizons as we learn how to explore, excel, and empower in everything we do. Hope to see you there!
                         </p>
                     </div>
                 </div>
@@ -116,7 +113,7 @@
                     </div>
                     <div class="row">
                         <h2 class = "h2-text h2-nerc-board">
-                            <strong> NERC BOARD - WORCESTER POLYTECHNIC INSTITUTE</strong></h2>
+                            <strong>NERC BOARD - WORCESTER POLYTECHNIC INSTITUTE</strong></h2>
                     </div>
                     <div class="grid-container">
                         <div class="container">
@@ -250,7 +247,7 @@
             <div class="container-fluid container-fluid-BG-styling" style="background-image: url('Backgrounds/ScheduleBg.jpg')" id = "Schedule">
                 <div class="container container-width">
                     <div class="row">
-                        <h1 class="h1-text h1-section">SCHEDULE</h1>
+                        <h1 class="h1-text h1-section" style="font-size: 490%;">SCHEDULE</h1>
                     </div>
                     <div class="row">
                         <h2 class="h2-text h2-schedule-date">FEB. 22, 2020</h2>
@@ -342,11 +339,12 @@
             </div>
         </section>
 
+        <!--
         <section>
             <div class="container-fluid container-fluid-BG-styling" style="background-image: url('Backgrounds/SponsorsBg.jpg')" id = "Sponsors">
                 <div class="container container-width">
                     <div class="row">
-                        <h1 class="h1-text h1-section">SPONSORS</h1>
+                        <h1 class="h1-text h1-section" style="font-size: 480%;">SPONSORS</h1>
                     </div>
                     <div class="row">
                         <h2 class="h2-text h2-sponsor-type"><i>TBD</i></h2>
@@ -364,7 +362,7 @@
                 </div>
             </div>
         </section>
-
+        -->
         <section>
             <div class="container-fluid container-fluid-BG-styling" style="background-image: url('Backgrounds/RegisterBg.jpg')" id = "Register">
                 <div class="container container-width">
@@ -372,31 +370,11 @@
                         <h1 class="h1-text h1-section">REGISTER</h1>
                     </div>
                     <!--Insert the Registration Part-->
-                    <div class = "row">
-                        <h2 class = "h2-text h2-styling">REFUND POLICTY</h2>
-                        <p class = "aboutP">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ultrices, mi ac sollicitudin porttitor, 
-                            dui leo tempus nisl, eget fermentum ipsum lectus at mauris. Ut vitae tincidunt enim, ac lacinia tellus. Aenean in volutpat enim, 
-                            vel varius mi. Nam malesuada, lorem id fermentum cursus, ante ante ultrices tellus, ut aliquet eros orci eu nulla. Nunc ex ante, 
-                            tristique eu rutrum et, sollicitudin et ex. Etiam at ipsum pulvinar risus tristique faucibus quis eget lectus. Nulla facilisi. 
-                            Maecenas rhoncus vestibulum augue ut mattis.Ut accumsan, lorem eget suscipit porttitor, nibh erat lacinia metus, non viverra ante 
-                            nibh id velit. Fusce non tempus tellus, vitae sagittis enim. Sed sed ipsum pretium, fermentum neque sed, lacinia urna.                                     Nulla non aliquet sem. Duis viverra augue a risus ornare placerat. Quisque varius ex lorem, eu blandit neque aliquet in. 
-                            Donec luctus luctus mauris sit amet laoreet. Aliquam malesuada porttitor lobortis. Ut convallis dignissim urna, id placerat 
-                            urna mattis sed. Integer malesuada nulla lorem. Praesent scelerisque sapien sit amet leo faucibus interdum. Quisque 
-                            libero nisl, dictum et ultrices eget, convallis sed lacus. Curabitur imperdiet mi vitae iaculis mattis.Nulla justo sem, 
-                            facilisis in porta eu, finibus nec nibh. Donec convallis tristique congue. Pellentesque venenatis dui sed odio tempus 
-                            sollicitudin vel sed est. Curabitur molestie gravida massa quis euismod. Integer vel tristique dolor. Vivamus a est vitae 
-                            lacus vehicula dictum id sed lacus. Curabitur aliquet massa sem, ut pharetra orci gravida quis. Morbi ac suscipit augue, 
-                            quis porta ipsum. Duis faucibus eleifend lectus. Sed finibus tristique convallis. Aenean elit erat, aliquam sed pellentesque 
-                            non, commodo id mi. Integer eu eros et mauris egestas blandit. Nunc a euismod lorem. Maecenas tempor libero quis lacus 
-                            tincidunt, sed tempor quam ullamcorper. Cras molestie tempus neque. Sed ullamcorper lorem in posuere porta. Lorem ipsum 
-                            dolor sit amet, consectetur adipiscing elit. Quisque varius tellus ut eros semper, sit amet imperdiet eros pretium. Ut 
-                            non consequat mi. Maecenas congue eleifend lacus, eget tempus dui dignissim ac. Sed porttitor sagittis justo, a lacinia 
-                            magna sodales cursus. Nullam iaculis mollis diam at aliquet. Praesent justo libero, lacinia nec mi et, accumsan egestas ligula. 
-                            Morbi eu fringilla purus.  
-                        </p>
+                    <div class = "row" style="justify-content: center;">
+                        <h2 class = "h2-text h2-styling">COMING SOON!</h2>
                     </div>
                     <div class = "row row-social-icons">
-                        <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                        <a href="https://www.facebook.com/events/409149443346520/" class="fa fa-facebook"></a>
                     </div>
                     <div class="row last-row"></div>
                 </div>
