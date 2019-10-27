@@ -65,6 +65,11 @@ header,
 .navbar-no-shadow {
   box-shadow: none;
 }
+
+.navLogo {
+  width:150px; 
+  height: auto;
+}
 /* Ending Nav Bar CSS */
 
 /* Tags CSS */
@@ -114,6 +119,11 @@ li {
 .h2-styling {
   margin-top: 100px;
   margin-left: 10px;
+}
+
+.aboutH2-styling {
+  margin-left: 10px; 
+  margin-bottom: 20px;
 }
 
 .h2-nerc-board {
