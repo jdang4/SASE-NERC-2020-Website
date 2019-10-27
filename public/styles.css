@@ -48,7 +48,7 @@ header,
 }
 
 .nav-li-pad{
-  padding-right: 78px;
+  padding-right: 55px;
 }
 
 .nav-font-styling {
@@ -57,9 +57,13 @@ header,
 }
 
 .navbar-nav .navbar-center {
-  position: relative;
+  position: absolute;
   left: 50%;
   transform: translatex(-50%);
+}
+
+.navbar-no-shadow {
+  box-shadow: none;
 }
 /* Ending Nav Bar CSS */
 
@@ -116,7 +120,7 @@ li {
   margin-bottom: 100px;
   margin-left: 10px; 
   letter-spacing: 0px; 
-  font-size: 2.5vw;
+  font-size: 300%;
 }
 
 .h2-schedule-date {
@@ -171,6 +175,7 @@ p {
   text-align: center;
   border-radius: 50px;
   width: 275px;
+  margin-left: 40px;
 }
 /* Ending Container & Grid CSS */
 
@@ -203,7 +208,7 @@ p {
 .col-2-3 {
   width:1fr;
   margin: 20px; 
-  margin-left: 40px; 
+  margin-left: 10px; 
   margin-top: 0px;
 }
 
