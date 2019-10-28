@@ -14,6 +14,7 @@ header,
   header,
   .view {
     height: 100%;
+    overflow-x: hidden;
   }
 }
 
@@ -88,7 +89,7 @@ li {
 /* Custom Header Styling CSS */
 .h1-text {
   font-weight: 700;
-  font-size:500%;
+  font-size: calc(290% + 2vw);
 }
 
 .h1-section {
@@ -112,7 +113,7 @@ li {
 }
 
 .h2-text {
-  font-size: 200%; 
+  font-size: calc(100% + 1vw);
   font-weight: 700;
   color: white;
   /*word-wrap: break-word;*/
@@ -132,21 +133,21 @@ li {
   margin-bottom: 100px;
   margin-left: 10px; 
   letter-spacing: 0px; 
-  font-size: 300%;
+  font-size: calc(90% + 2vw);
 }
 
 .h2-schedule-date {
   margin: 50px;
   margin-left: 10px;
   margin-top: 0px;
-  font-size: 350%;
+  font-size: calc(150% + 2vw);
 }
 
 .h2-sponsor-type {
   margin: 50px;
   margin-left: 10px;
   margin-top: 0px;
-  font-size: 350%;
+  font-size: calc(100% + 2vw);
 }
 /* Ending Custom Header Styling CSS */
 
@@ -252,10 +253,6 @@ p {
   color: white;
 }
 /* Ending Social Icon CSS */
-
-blockquote {
-  border-right: none;
-}
 
 .memberName {
   margin-top: 20px;
