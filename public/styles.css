@@ -67,7 +67,9 @@ header,
 }
 
 .navLogo {
-  width:150px; 
+  width:120px; 
+  padding-top: 10px;
+  padding-bottom: 10px;
   height: auto;
 }
 /* Ending Nav Bar CSS */
