@@ -11,4 +11,11 @@ $(document).ready(function(){
     $("SplashLogo").fadeIn(5000);
 });
 
+$('a').click(function(){
+    $('html, body').animate({
+        scrollTop: $( $(this).attr('href') ).offset().top
+    }, 900);
+    return false;
+});
+
 
