@@ -141,7 +141,7 @@ li {
   margin: 50px;
   margin-left: 10px;
   margin-top: 0px;
-  font-size: calc(150% + 2vw);
+  font-size: calc(100% + 2vw);
 }
 
 .h2-sponsor-type {
@@ -202,8 +202,8 @@ p {
 
 .avatar-img {
   border-radius: 50%; 
-  width: 275px; 
-  height: 275px;
+  width: 220px; 
+  height: 220px;
 }
 /* Ending Team Section CSS */
 
@@ -258,6 +258,11 @@ p {
 .memberName {
   margin-top: 20px;
   font-weight: bold;
+  font-size: 70%;
+}
+
+.memberPosition {
+  font-size: 50%;
 }
 
 .center {
