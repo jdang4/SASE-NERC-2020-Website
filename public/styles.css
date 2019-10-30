@@ -204,10 +204,24 @@ p {
   padding: 0;
 }
 
+.avatar-container {
+  position: relative;
+}
+
 .avatar-img {
   border-radius: 50%; 
   width: 220px; 
   height: 220px;
+  position: absolute; 
+  z-index: 1;
+}
+
+.avatarBG {
+  border-radius: 50%; 
+  width: 220px; 
+  height: 220px;
+  background-color:white; 
+  z-index: 2;
 }
 /* Ending Team Section CSS */
 
