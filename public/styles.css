@@ -8,13 +8,12 @@ header,
   background-position: center;
 }
 
-@media (max-width: 740px) {
+@media (max-width: 100%) {
   html,
   body,
   header,
   .view {
     height: 100%;
-    overflow-x: hidden;
   }
 }
 
@@ -23,6 +22,7 @@ header,
   position: absolute;
   left: 0;
 }
+
 
 .hr-light {
   border-top: 3px solid #fff;
@@ -41,6 +41,7 @@ header,
 @media (max-width: 991px) {
   .navbar:not(.top-nav-collapse) {
     background: #202020 !important;
+    background-color: red !important;
   }
   .nav-font-styling {
     font-weight: 300 !important;
