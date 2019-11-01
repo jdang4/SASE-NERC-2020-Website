@@ -41,7 +41,6 @@ header,
 @media (max-width: 991px) {
   .navbar:not(.top-nav-collapse) {
     background: #202020 !important;
-    background-color: red !important;
   }
   .nav-font-styling {
     font-weight: 300 !important;
