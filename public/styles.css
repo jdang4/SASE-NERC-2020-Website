@@ -73,6 +73,10 @@ header,
   padding-bottom: 10px;
   height: auto;
 }
+
+img:hover {
+  opacity: 0.85;
+}
 /* Ending Nav Bar CSS */
 
 /* Tags CSS */
@@ -99,6 +103,7 @@ li {
 
 .h1-team-section {
   padding-top: 70px;
+  margin-left: 10px;
 }
 
 .h1-textDate {
@@ -131,7 +136,7 @@ li {
 
 .h2-nerc-board {
   margin-bottom: 100px;
-  margin-left: 0px; 
+  margin-left: 10px; 
   letter-spacing: 0px; 
   font-size: calc(90% + 2vw);
 }
@@ -258,10 +263,13 @@ p {
   margin-top: 20px;
   font-weight: bold;
   font-size: 70%;
+  text-shadow: 0 0 1.5px black;
 }
 
 .memberPosition {
-  font-size: 50%;
+  /*font-size: 50%;*/
+  font-size: calc(50% + 0.4vw);
+  text-shadow: 0 0 1.5px black;
 }
 
 .center {
