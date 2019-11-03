@@ -165,6 +165,10 @@ li {
   margin-top: 50px;
 }
 
+.h2-no-margin-top {
+  margin-top: 0px;
+}
+
 .h2-sponsor-type {
   margin: 50px;
   margin-left: 10px;
@@ -186,6 +190,8 @@ p {
 .policyP {
   font-size: 15px;
   margin-left: 10px;
+  text-shadow: 0px 0px 1px black;
+  font-weight: 500;
 }
 /* Ending Paragraph CSS */
 
