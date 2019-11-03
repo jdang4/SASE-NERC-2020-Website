@@ -74,9 +74,11 @@ header,
   height: auto;
 }
 
-img:hover {
+
+.navLogo:hover {
   opacity: 0.85;
 }
+
 /* Ending Nav Bar CSS */
 
 /* Tags CSS */
@@ -90,7 +92,7 @@ li {
 }
 /* Ending Tags CSS */
 
-/* Custom Header Styling CSS */
+/* Custom Header & Margin Styling CSS */
 .h1-text {
   font-weight: 700;
   font-size: calc(290% + 2vw);
@@ -115,6 +117,10 @@ li {
   font-size: 3vw;
   margin-top: 10px;
   text-align: center;
+}
+
+.schedule-styling {
+  font-size: calc(190% + .70vw);
 }
 
 .h2-text {
@@ -146,6 +152,17 @@ li {
   margin-left: 10px;
   margin-top: 0px;
   font-size: calc(100% + 2vw);
+}
+
+.h2-policy {
+  margin: 50px;
+  margin-left: 10px;
+  margin-top: 30px;
+  font-size: calc(100% + 1.5vw);
+}
+
+.h2-margin-top-extra {
+  margin-top: 50px;
 }
 
 .h2-sponsor-type {
@@ -212,8 +229,6 @@ p {
   border-radius: 50%; 
   width: 220px; 
   height: 220px;
-  position: absolute; 
-  z-index: 1;
 }
 
 .avatarBG {
@@ -291,4 +306,42 @@ p {
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+.register-button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 25px;
+  cursor: pointer;
+  position: absolute;
+  z-index: 2;
+}
+
+.register-buttonBG {
+  background-color: white;
+  border: none;
+  color: white;
+  padding: 15px 50px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 700;
+  font-size: 25px;
+  cursor: pointer;
+  position: absolute;
+  z-index: 1;
+}
+
+.register-button:focus {
+  outline:0;
+}
+
+.register-button:hover {
+  opacity: .90;
 }
