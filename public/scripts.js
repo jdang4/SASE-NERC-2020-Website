@@ -1,4 +1,5 @@
-$('.navbar-collapse a').click(function(){
+
+$('.navbar-collapse a').click(function () {
     $(".navbar-collapse").collapse('hide');
 });
 
@@ -8,15 +9,24 @@ $( '.navbar-nav a' ).on( 'click', function () {
 	$( this ).parent( 'li' ).addClass( 'active' );
 });
 */
-$(document).ready(function(){
+
+$(document).ready(function () {
     $("SplashLogo").fadeIn(5000);
 });
 
-$('a').click(function(){
-    $('html, body').animate({
-        scrollTop: $( $(this).attr('href') ).offset().top
-    }, 900);
-    return false;
+$(document).ready(function () {
+    var offset = -50;
+    $('a[href^="#"]').on('click', function (event) {
+        var target = $(this.getAttribute('href'));
+        if (target.length) {
+            event.preventDefault();
+            $('html, body').stop().animate({
+                scrollTop: target.offset().top + offset
+            }, 1000);
+        }
+    });
 });
 
+
 $("a").removeClass("waves-effect waves-light");
+
