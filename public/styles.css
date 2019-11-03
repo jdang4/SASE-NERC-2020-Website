@@ -49,7 +49,7 @@ header,
 }
 
 .nav-li-pad{
-  padding-right: 55px;
+  padding-right: 40px;
 }
 
 .nav-font-styling {
@@ -155,9 +155,9 @@ li {
 }
 
 .h2-policy {
-  margin: 50px;
   margin-left: 10px;
   margin-top: 30px;
+  margin-bottom: 20px;
   font-size: calc(100% + 1.5vw);
 }
 
@@ -179,6 +179,11 @@ p {
 }
 
 .aboutP {
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.policyP {
   font-size: 15px;
   margin-left: 10px;
 }
