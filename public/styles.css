@@ -195,16 +195,14 @@ p {
   color: white;
 }
 
-.aboutP {
+.pStyling {
   font-size: 15px;
   margin-left: 10px;
+  font-weight: 600;
 }
 
 .policyP {
-  font-size: 15px;
-  margin-left: 10px;
   text-shadow: 0px 0px 1px black;
-  font-weight: 600;
 }
 /* Ending Paragraph CSS */
 
