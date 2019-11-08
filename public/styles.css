@@ -169,6 +169,11 @@ li {
   font-size: calc(100% + 1.5vw);
 }
 
+.h2-contact {
+  font-size: calc(100% + 1.5vw);
+  margin-top: 0px;
+}
+
 .h2-margin-top-extra {
   margin-top: 50px;
 }
