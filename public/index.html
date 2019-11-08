@@ -11,8 +11,8 @@
         content="Join us for the annual Society of Asian Scientists and Engineers (SASE) Northeast Regional Conference (NERC) on February 22, 2020 at the Marriott Boston Quincy Hotel.">
     <meta name="robots" content="index, follow" />
     <!-- Social Media Meta Tags -->
-    <meta property="fb:app_id" content="551868098957863"/>
-    <meta property="fb:admins" content="100004617889306"/>
+    <meta property="fb:app_id" content="551868098957863" />
+    <meta property="fb:admins" content="100004617889306" />
     <meta name="twitter:card" value="summary">
     <meta name="twitter:image" content="http://www.sasenerc2020.com/nerclogo.png">
     <meta property="og:title" content="SASE NERC 2020" />
@@ -34,8 +34,8 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700&amp;amp;subset=cyrillic"
         rel="stylesheet">
     <!-- Favicon in HTML -->
-    <link rel='icon' href='favicon_package/favicon.ico' type='image/x-icon'/>
-    <link rel='shortcut icon' href='favicon_package/favicon.ico' type='image/x-icon'/>
+    <link rel='icon' href='favicon_package/favicon.ico' type='image/x-icon' />
+    <link rel='shortcut icon' href='favicon_package/favicon.ico' type='image/x-icon' />
     <style type="text/css">
         /* Chart.js */
         @-webkit-keyframes chartjs-render-animation {
@@ -76,13 +76,14 @@
     <header>
         <!--Navigation Bar-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top scrolling-navbar navbar-no-shadow">
-            <div class="container" style="margin-top: 0px;">
+            <div class="container-fluid" style="margin-top: 0px;">
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
                     data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse container" id="navbarSupportedContent-7" style="max-width: 70%;">
+                <div class="collapse navbar-collapse container-fluid" id="navbarSupportedContent-7"
+                    style="max-width: 70%;">
                     <a class="navbar-brand nav-li-pad" href="#Home">
                         <img class="navLogo" src="Backgrounds/SaseLogo.png" alt="logo">
                     </a>
@@ -117,13 +118,26 @@
         <div class="view container-fluid" data-jarallax="{&quot;speed&quot;: 0.2}"
             style="background-image: url('Backgrounds/HomeBg.jpg');" id="Home">
             <!-- Mask & flexbox options-->
-            <div class="container w3-animate-opacity" style="padding-top: 250px;" id="SplashLogo">
+            <div class="container w3-animate-opacity" style="padding-top: 130px;" id="SplashLogo">
                 <!-- Content -->
-                <img src='Backgrounds/Logo.png' style="width: 70%; height: auto;" class="center">
+                <img src='Backgrounds/Logo.png' style="width: 80%; height: auto;" class="center">
+                <!--<img src='Backgrounds/Logo.png' style="width: calc(85% + 1vw); height: auto;" class="center">-->
                 <!-- Content -->
             </div>
             <div class="container w3-animate-opacity" id="SplashLogo">
-                <h1 class="h1-textDate dateStyling">FEB. 22, 2020</h1>
+                <h1 class="h1-textDate dateStyling locationFont">MARRIOTT BOSTON QUINCY HOTEL</h1>
+            </div>
+            <div class="container w3-animate-opacity" id="SplashLogo">
+                <h1 class="h1-textDate dateStyling no-margin-top">FEB. 22, 2020</h1>
+            </div>
+            <div class="container w3-animate-opacity">
+                <div class="row" style="justify-content: center;">
+                    <button class="register-button register-button-height"
+                        onclick="window.open('https://www.facebook.com/events/409149443346520/')">
+                        REGISTER
+                    </button>
+                    <button class="register-button register-buttonBG register-button-height">REGISTER</button>
+                </div>
             </div>
             <!-- Mask & flexbox options-->
         </div>
@@ -480,12 +494,26 @@
                     <div class="row">
                         <h1 class="h1-text h1-section">REGISTER</h1>
                     </div>
-                    <!--Insert the Registration Part-->
-                    <div class="row" style="justify-content: center;">
-                        <button class="register-button">Register</button>
-                        <button class="register-buttonBG">Register</button>
+                    <div class="row" style="padding-top: 40px;">
+                        <div class="container" style="margin-bottom: 60px; padding: 20px;">
+                            <img src="RegisterationPrices.png"
+                                style="width: 100%; margin-left: auto; margin-right: auto;">
+                        </div>
                     </div>
                     <div class="row" style="justify-content: center;">
+                        <button class="register-button"
+                            onclick="window.open('https://www.facebook.com/events/409149443346520/')">
+                            REGISTER
+                        </button>
+                        <button class="register-button register-buttonBG">REGISTER</button>
+                    </div>
+                    <div class="row" style="margin-top: 100px;">
+                        <h2 class="h2-text h2-styling h2-registration">MARRIOTT QUINCY BOSTON HOTEL</h2>
+                    </div>
+                    <div class="row" style="margin-top: 80px;">
+                        <h2 class="h2-text h2-styling h2-registration">PARKING</h2>
+                    </div>
+                    <div class="row" style="justify-content: center; margin-top: 50px;">
                         <h2 class="h2-text h2-styling">REGISTRATION COMING SOON!</h2>
                     </div>
                     <div class="row row-social-icons">
@@ -497,8 +525,8 @@
             </div>
         </section>
         <section>
-            <div class="container-fluid container-fluid-BG-styling" style="background-image: url('Backgrounds/PolicyBg.jpg');"
-                id="Policy">
+            <div class="container-fluid container-fluid-BG-styling"
+                style="background-image: url('Backgrounds/PolicyBg.jpg');" id="Policy">
                 <div class="container container-width">
                     <div class="row">
                         <h1 class="h1-text h1-section">POLICY</h1>
@@ -540,8 +568,8 @@
             </div>
         </section>
         <section>
-            <div class="container-fluid container-fluid-BG-styling" style="background-image: url('Backgrounds/ContactBg.jpg')"
-                id="Policy">
+            <div class="container-fluid container-fluid-BG-styling"
+                style="background-image: url('Backgrounds/ContactBg.jpg')" id="Policy">
                 <div class="container container-width">
                     <div class="row">
                         <h1 class="h1-text h1-section">CONTACT</h1>

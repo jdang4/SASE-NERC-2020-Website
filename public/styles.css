@@ -49,7 +49,7 @@ header,
 }
 
 .nav-li-pad{
-  padding-right: 40px;
+  padding-right: 120px;
 }
 
 .nav-font-styling {
@@ -114,9 +114,13 @@ li {
 }
 
 .dateStyling {
-  font-size: 3vw;
-  margin-top: 10px;
+  font-size: calc(1vw + 100%);
+  margin-top: 40px;
   text-align: center;
+}
+
+.locationFont {
+  font-size: calc(1vw + 80%);
 }
 
 .schedule-styling {
@@ -161,12 +165,16 @@ li {
   font-size: calc(100% + 1.5vw);
 }
 
+.h2-registration {
+  font-size: calc(100% + 1.5vw);
+}
+
 .h2-margin-top-extra {
   margin-top: 50px;
 }
 
-.h2-no-margin-top {
-  margin-top: 0px;
+.no-margin-top {
+  margin-top: -10px;
 }
 
 .h2-sponsor-type {
@@ -191,7 +199,7 @@ p {
   font-size: 15px;
   margin-left: 10px;
   text-shadow: 0px 0px 1px black;
-  font-weight: 500;
+  font-weight: 600;
 }
 /* Ending Paragraph CSS */
 
@@ -320,10 +328,10 @@ p {
 }
 
 .register-button {
-  background-color: #4CAF50;
+  background-color: #7DC243;
   border: none;
   color: white;
-  padding: 15px 50px;
+  padding: 25px 80px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -336,17 +344,11 @@ p {
 
 .register-buttonBG {
   background-color: white;
-  border: none;
-  color: white;
-  padding: 15px 50px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-weight: 700;
-  font-size: 25px;
-  cursor: pointer;
-  position: absolute;
   z-index: 1;
+}
+
+.register-button-height {
+  padding: 8px 90px;
 }
 
 .register-button:focus {
