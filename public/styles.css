@@ -198,7 +198,7 @@ p {
 .pStyling {
   font-size: 15px;
   margin-left: 10px;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 .policyP {
@@ -418,3 +418,9 @@ p {
   }
 }
 */
+
+a:hover {
+  color: #7DC242;
+  background-color: transparent;
+  text-decoration: underline;
+}
