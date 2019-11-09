@@ -45,11 +45,20 @@ header,
   .nav-font-styling {
     font-weight: 300 !important;
     font-size: 20px !important;
+    padding-top: 0px !important;
   }
 }
 
 .nav-li-pad{
-  padding-right: 120px;
+  padding-right: calc(2.5vw + 50px);
+}
+
+.v-mid {
+  padding-top: 12.5px;
+}
+
+.nav-logo-pad {
+  padding-right: 5px;
 }
 
 .nav-font-styling {
