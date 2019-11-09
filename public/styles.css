@@ -419,7 +419,8 @@ p {
 }
 */
 
-a:hover {
+
+.contactlink :hover {
   color: #7DC242;
   background-color: transparent;
   text-decoration: underline;
