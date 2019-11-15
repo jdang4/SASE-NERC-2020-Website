@@ -6,6 +6,7 @@ header,
   background-repeat: no-repeat;
   background-size: cover; 
   background-position: center;
+  overscroll-behavior: none;
 }
 
 @media (max-width: 100%) {
