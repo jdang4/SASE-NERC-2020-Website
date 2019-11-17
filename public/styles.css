@@ -144,6 +144,13 @@ li {
   /*word-wrap: break-word;*/
 }
 
+.h2-text-policy {
+  font-size: calc(130% + 1vw) !important;
+  font-weight: 700;
+  color: white;
+  /*word-wrap: break-word;*/
+}
+
 .h2-styling {
   margin-top: 100px;
   margin-left: 10px;
@@ -152,6 +159,10 @@ li {
 .aboutH2-styling {
   margin-left: 10px; 
   margin-bottom: 20px;
+}
+
+.reduce-m {
+  margin-bottom: 20px !important;
 }
 
 .h2-nerc-board {
