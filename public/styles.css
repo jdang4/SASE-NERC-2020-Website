@@ -45,13 +45,13 @@ header,
   }
   .nav-font-styling {
     font-weight: 300 !important;
-    font-size: 20px !important;
+    font-size: 15px !important;
     padding-top: 0px !important;
   }
 }
 
 .nav-li-pad{
-  padding-right: calc(2.5vw + 50px);
+  padding-right: calc(2vw + 40px);
 }
 
 .v-mid {
