@@ -364,7 +364,7 @@ p {
   text-decoration: none;
   /*display: inline-block;*/
   font-weight: 700;
-  font-size: calc(80% + 2vw);
+  font-size: calc(60% + 1.25vw);
   padding: 5px;
   cursor: pointer;
 }
@@ -376,7 +376,7 @@ p {
 
 .register-button-height {
   /*padding: 8px 90px;*/
-  font-size: calc(100% + 2vw);
+  font-size: calc(70% + 1.5vw);
   max-height: 60%;
 }
 
