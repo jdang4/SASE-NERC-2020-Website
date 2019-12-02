@@ -366,6 +366,8 @@ p {
   font-weight: 700;
   font-size: calc(60% + 1.25vw);
   padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
   cursor: pointer;
 }
 
