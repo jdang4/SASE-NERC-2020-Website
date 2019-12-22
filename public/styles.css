@@ -79,7 +79,7 @@ header {
   width: 50%;
 }
 .nav-li-pad{
-  padding-right: calc(1.5vw + 38px);
+  padding-right: calc(1.5vw + 40px);
 }
 
 .v-mid {
@@ -158,7 +158,7 @@ li {
 }
 
 .locationFont {
-  font-size: calc(1vw + 65%);
+  font-size: calc(1vw + 60%);
 }
 
 .schedule-styling {
