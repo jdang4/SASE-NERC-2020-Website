@@ -287,14 +287,91 @@ p {
 
 }
 
+.grid-container-about {
+  display: grid;
+  justify-content: center;
+  width: 100%;
+  grid-auto-rows: auto;
+  grid-template-columns: repeat(3, minmax(300px, 1fr)); 
+  grid-gap: 0px;
+  row-gap: 300px;
+  column-gap: 0;
+}
+
+@media (max-width: 1200px) {
+  .grid-container-about {
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(1, minmax(300px, 0.5fr)); 
+    grid-gap: 0px;
+    row-gap: 100px;
+    column-gap: 0;
+  }
+}
+
+.grid-container-buttons {
+  display: grid;
+  justify-content: center;
+  width: 90%;
+  grid-auto-rows: auto;
+  grid-template-columns: repeat(2, minmax(50px, 1fr));
+  grid-gap: 0px;
+  row-gap: 20px;
+  column-gap: 0;
+}
+
+.grid-col-gap {
+  column-gap: 100px;
+}
+
+.extra-bottom-padding {
+  padding-bottom: 11px !important;
+}
+
+@media (max-width: 1200px) {
+  .extra-bottom-padding {
+    padding-bottom: 5px !important;
+  }
+}
+
+@media (max-width: 1200px) {
+  .grid-container-buttons {
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(1, minmax(300px, 0.5fr));
+    grid-gap: 0px;
+    row-gap: 20px;
+    column-gap: 0;
+  }
+}
+
 
 .grid-item {
   font-size: 30px;
   text-align: center;
   border-radius: 50px;
+  height: auto;
   width: 275px;
-  margin-left: 20px;
+
 }
+
+.grid-item-buttons {
+  height: auto;
+  width: auto;
+  text-align: center;
+}
+
+.grid-item-about {
+  font-size: 30px;
+  text-align: center;
+  border-radius: 50px;
+  height: auto;
+}
+
 /* Ending Container & Grid CSS */
 
 /* Team Section CSS */
@@ -305,7 +382,8 @@ p {
 }
 
 .avatar-container {
-  position: relative;
+  /*position: relative;*/
+  justify-content: space-evenly;
 }
 
 .avatar-img {
@@ -376,6 +454,8 @@ p {
   font-weight: bold;
   font-size: 70%;
   text-shadow: 0 0 1.5px black;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .memberPosition {
@@ -407,6 +487,10 @@ p {
   cursor: pointer;
 }
 
+.contact-for-sponsor-font {
+  font-size: calc(50% + 0.7vw) !important;
+}
+
 .register-buttonBG {
   background-color: white;
   z-index: 1;
@@ -415,7 +499,8 @@ p {
 .register-button-height {
   /*padding: 8px 90px;*/
   font-size: calc(70% + 1.5vw);
-  max-height: 60%;
+  max-height: 100%;
+  min-height: auto;
 }
 
 .register-button:focus {
