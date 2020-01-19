@@ -128,6 +128,20 @@ h1, h2 {
 li {
   color: white;
 }
+
+ol {
+  margin-top: 10px;
+  margin-left: 3px;
+}
+
+.li-schedule {
+  font-size: calc(100% + 0.75vw);
+  max-width: inherit;
+}
+
+.li-container {
+  max-width: 500px;
+}
 /* Ending Tags CSS */
 
 /* Custom Header & Margin Styling CSS */
@@ -162,7 +176,7 @@ li {
 }
 
 .schedule-styling {
-  font-size: calc(190% + .70vw);
+  font-size: calc(150% + 0.75vw);
 }
 
 .h2-text {
@@ -246,9 +260,25 @@ p {
 }
 
 .pStyling {
-  font-size: 15px;
+  font-size: 18px;
   margin-left: 10px;
   font-weight: 400;
+}
+
+.pDescription {
+  font-size: 50%; 
+  margin-left: 17px;
+}
+
+.description-styling {
+  font-size: 18px;
+  font-weight: 400;
+  text-align: justify;
+
+}
+
+.add-shadow {
+  text-shadow: 0px 0px 1px black;
 }
 
 .policyP {
@@ -298,6 +328,19 @@ p {
   column-gap: 0;
 }
 
+.splash-button-padding {
+  padding-top: 3px !important;
+  padding-bottom: 11px !important;
+}
+
+@media (max-width: 1200px) {
+  .splash-button-padding {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+  }
+}
+
+
 @media (max-width: 1200px) {
   .grid-container-about {
     display: grid;
@@ -309,6 +352,17 @@ p {
     row-gap: 100px;
     column-gap: 0;
   }
+}
+
+.grid-container-buttons-splash {
+  display: grid;
+  justify-content: center;
+  width: 70%;
+  grid-auto-rows: auto;
+  grid-template-columns: repeat(2, minmax(40px, 0.5fr));
+  grid-gap: 5px;
+  row-gap: 10px;
+  column-gap: 0;
 }
 
 .grid-container-buttons {
@@ -342,11 +396,23 @@ p {
     justify-content: center;
     width: 100%;
     grid-auto-rows: auto;
-    grid-template-columns: repeat(1, minmax(300px, 0.5fr));
+    grid-template-columns: repeat(1, minmax(300px, 1fr));
     grid-gap: 0px;
-    row-gap: 20px;
+    row-gap: 30px;
     column-gap: 0;
   }
+
+  .grid-container-buttons-splash {
+    display: grid;
+    justify-content: center;
+    width: 100%;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(1, minmax(300px, 1fr));
+    grid-gap: 0px;
+    row-gap: 30px;
+    column-gap: 0;
+  }
+
 }
 
 
