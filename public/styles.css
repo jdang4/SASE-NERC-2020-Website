@@ -10,7 +10,7 @@ header,
 }
 
 header {
-  min-height: 700px;
+  min-height: 900px;
 }
 
 @media (max-width: 100%) {
@@ -34,6 +34,27 @@ header {
   width: 80px;
 }
 
+/*
+.navbar2 {
+  width: 100%;
+  background-color: black;
+  overflow: auto;
+}
+
+
+.navbar2 a {
+  float: left;
+  padding: 12px;
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 17px;
+  width: calc(100%/9); 
+  height: 50px;
+  text-align: center;
+}
+*/
+
 /* Nav Bar CSS */
 @media (min-width: 1400px){
   .navbar-expand-custom {
@@ -54,6 +75,7 @@ header {
   .navbar-expand-custom .navbar-toggler {
       display: none;
   }
+  
 }
 
 .top-nav-collapse {
@@ -65,7 +87,7 @@ header {
 }
 
 @media (max-width: 991px) {
-  .navbar:not(.top-nav-collapse) {
+  .navbar2:not() {
     background: #202020 !important;
   }
   .nav-font-styling {
@@ -145,6 +167,10 @@ ol {
 /* Ending Tags CSS */
 
 /* Custom Header & Margin Styling CSS */
+.h6-styling {
+  color: white;
+  font-size: calc(40% + 0.5vw);
+}
 .h1-text {
   font-weight: 700;
   font-size: calc(290% + 2vw);
@@ -307,6 +333,16 @@ p {
   justify-content: center;
 }
 
+.grid-container-logo {
+  display: grid;
+  grid-auto-rows: 150px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+  grid-gap: 0px;
+  row-gap: 300px;
+  column-gap: 150px;
+  justify-content: center;
+}
+
 .grid-container-sponsor {
   display: grid;
   grid-auto-rows: 200px;
@@ -361,7 +397,7 @@ p {
   grid-auto-rows: auto;
   grid-template-columns: repeat(2, minmax(40px, 0.5fr));
   grid-gap: 5px;
-  row-gap: 10px;
+  row-gap: 50px;
   column-gap: 0;
 }
 
@@ -407,14 +443,29 @@ p {
     justify-content: center;
     width: 100%;
     grid-auto-rows: auto;
-    grid-template-columns: repeat(1, minmax(300px, 1fr));
+    grid-template-columns: repeat(1, 1fr);
     grid-gap: 0px;
     row-gap: 30px;
     column-gap: 0;
+    
   }
 
 }
-
+/*
+@media (max-height: 800px) {
+  .grid-container-buttons-splash {
+    display: grid;
+    justify-content: center;
+    width: 70%;
+    grid-auto-rows: auto;
+    grid-template-columns: repeat(1, minmax(40px, 0.5fr));
+    grid-gap: 5px;
+    row-gap: 30px;
+    column-gap: 0;
+    margin-bottom: 200px;
+  }
+}
+*/
 
 .grid-item {
   font-size: 30px;
@@ -610,4 +661,9 @@ p {
   color: #7DC242;
   background-color: transparent;
   text-decoration: underline;
+}
+
+.logo-styling {
+  width: 250px;
+  height: 250px;
 }
