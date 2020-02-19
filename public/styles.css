@@ -34,27 +34,6 @@ header {
   width: 80px;
 }
 
-/*
-.navbar2 {
-  width: 100%;
-  background-color: black;
-  overflow: auto;
-}
-
-
-.navbar2 a {
-  float: left;
-  padding: 12px;
-  color: white;
-  background-color: transparent;
-  text-decoration: none;
-  font-size: 17px;
-  width: calc(100%/9); 
-  height: 50px;
-  text-align: center;
-}
-*/
-
 /* Nav Bar CSS */
 @media (min-width: 1400px){
   .navbar-expand-custom {
@@ -70,7 +49,8 @@ header {
       padding-left: .5rem;
   }
   .navbar-expand-custom .navbar-collapse {
-      display: flex!important;
+      display: flex !important;
+      
   }
   .navbar-expand-custom .navbar-toggler {
       display: none;
@@ -79,7 +59,7 @@ header {
 }
 
 .top-nav-collapse {
-  background-color: #202020 !important;
+  background: #202020 !important;
 }
 
 .navbar:not(.top-nav-collapse) {
@@ -87,7 +67,7 @@ header {
 }
 
 @media (max-width: 991px) {
-  .navbar2:not() {
+  .navbar:not() {
     background: #202020 !important;
   }
   .nav-font-styling {
